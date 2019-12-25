@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/hello.cpp
+iostream
+-
+ct/optcon/optcon.h
+-
+ct/core/core.h
+-
+
