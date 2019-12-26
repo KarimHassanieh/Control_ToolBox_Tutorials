@@ -11,6 +11,6 @@ iostream
 -
 ct/core/core.h
 -
-ct/core/plot.h
+ct/core/plot/plot.h
 -
 

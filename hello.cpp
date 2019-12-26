@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include <ct/core/core.h>
-#include <ct/core/plot.h>
+#include <ct/core/plot/plot.h>
 using namespace std;
 int main ()
 {
