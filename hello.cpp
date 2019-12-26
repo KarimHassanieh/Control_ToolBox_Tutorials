@@ -1,6 +1,7 @@
 #include <iostream>
-#include <ct/optcon/optcon.h>
+
 #include <ct/core/core.h>
+#include <ct/core/plot.h>
 using namespace std;
 int main ()
 {
@@ -24,5 +25,13 @@ int main ()
     integrator.integrate_n_steps(x, t0, nSteps, dt);
     // print the new state
     std::cout << "state after integration: " << x.transpose() << std::endl;
+
+   // Simple:
+    std::vector<double> v({1, 2, 3, 4});
+    ct::core::plot::plot(v);
+    ct::core::plot::show();
+
+
+
 
 }

@@ -9,7 +9,7 @@ find_package(Boost COMPONENTS REQUIRED)
 include_directories(-I/usr/include/eigen3)
 include_directories(${EIGEN_INCLUDE_DIRS})
 add_executable(hello hello.cpp)
-target_link_libraries (hello ${ct_core_LIBS}${ct_optcon_LIBS})
+target_link_libraries (hello ct_core)
 list(APPEND core_ex_TARGETS hello)
 
 
