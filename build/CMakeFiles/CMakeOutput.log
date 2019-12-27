@@ -430,3 +430,31 @@ make[1]: Leaving directory '/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_E
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61ca4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61ca4.dir/build.make CMakeFiles/cmTC_61ca4.dir/build
+make[1]: Entering directory '/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61ca4.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_61ca4.dir/CheckSymbolExists.cxx.o -c /home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_61ca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ca4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_61ca4.dir/CheckSymbolExists.cxx.o  -o cmTC_61ca4 
+make[1]: Leaving directory '/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/build/CMakeFiles/CMakeTmp'
+
+File /home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

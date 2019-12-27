@@ -13,6 +13,4 @@ ct/core/core.h
 -
 ct/core/plot/plot.h
 -
-ct/core/plot/plot-impl.h
--
 

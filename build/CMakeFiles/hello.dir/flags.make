@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/-I -I/usr/local/include/eigen3 -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/usr/include/python2.7 -isystem /usr/include/eigen3 
 
