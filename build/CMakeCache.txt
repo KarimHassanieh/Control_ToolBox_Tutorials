@@ -169,6 +169,9 @@ CONTROL_TOOLBOX_SOURCE_DIR:STATIC=/home/karim/Desktop/KARIM/ROBOTICS/Control_Too
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 
+//The directory containing a CMake configuration file for Eigen.
+Eigen_DIR:PATH=Eigen_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

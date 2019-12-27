@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/hello.cpp
-iostream
--
-ct/core/core.h
--
-ct/core/plot/plot.h
--
-ct/core/plot/plot-impl.h
+/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/b.cpp
+ct/optcon/optcon.h
 -
 
