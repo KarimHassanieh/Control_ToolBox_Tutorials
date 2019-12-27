@@ -13,4 +13,6 @@ ct/core/core.h
 -
 ct/core/plot/plot.h
 -
+ct/optcon/optcon.h
+-
 
