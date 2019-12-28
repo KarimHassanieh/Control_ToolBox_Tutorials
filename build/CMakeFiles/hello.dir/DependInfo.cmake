@@ -8,10 +8,21 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CPPAD"
+  "CPPADCG"
+  "LLVM_VERSION_MAJOR=6"
+  "LLVM_VERSION_MINOR=0"
+  "PLOTTING_ENABLED"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/python2.7"
   "/usr/include/eigen3"
+  "/usr/lib/llvm-6.0/include"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

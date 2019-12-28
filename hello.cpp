@@ -26,7 +26,7 @@ int main ()
     // simulate 1000 steps
     double dt = 0.001;
     Time t0 = 0.0;
-    size_t nSteps = 1000;
+    size_t nSteps = 2000;
     states.push_back(x);
 for (size_t i = 0; i < nSteps; i++){
     integrator.integrate_n_steps(x, i*dt, 1, dt);
@@ -49,18 +49,24 @@ for (size_t i = 0; i < nSteps; i++){
 
 
  // plot position
-    ct::core::plot::subplot(2, 1, 1);
+    ct::core::plot::subplot(3, 1, 1);
 ct::core::plot::title("Simulation Results");
     ct::core::plot::labelPlot("Position", time_plot, position_plot);
     ct::core::plot::legend();
     ct::core::plot::ylabel("Position");
      ct::core::plot::xlabel("Time");
     // plot velocity
-    ct::core::plot::subplot(2, 1, 2);
+    ct::core::plot::subplot(3, 1, 2);
     ct::core::plot::labelPlot("Velocity", time_plot, velocity_plot);
     ct::core::plot::legend();
     ct::core::plot::ylabel("Velocity");
      ct::core::plot::xlabel("Time");
+        // plot velocity
+    ct::core::plot::subplot(3, 1, 3);
+    ct::core::plot::labelPlot("Phase Plot",velocity_plot,position_plot);
+    ct::core::plot::legend();
+    ct::core::plot::ylabel("Velocity");
+     ct::core::plot::xlabel("Position");
     
     ct::core::plot::show();
 

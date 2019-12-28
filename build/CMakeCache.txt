@@ -793,6 +793,9 @@ QT_WORLDTIMECLOCKPLUGIN_PLUGIN_RELEASE:FILEPATH=QT_WORLDTIMECLOCKPLUGIN_PLUGIN_R
 //The directory containing a CMake configuration file for Qwt.
 Qwt_DIR:PATH=Qwt_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for ct_core.
+ct_core_DIR:PATH=/usr/local/share/ct_core/cmake
+
 
 ########################
 # INTERNAL cache entries

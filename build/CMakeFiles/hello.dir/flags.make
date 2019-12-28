@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DCPPAD -DCPPADCG -DLLVM_VERSION_MAJOR=6 -DLLVM_VERSION_MINOR=0 -DPLOTTING_ENABLED
 
-CXX_INCLUDES = -I/usr/include/python2.7 -isystem /usr/include/eigen3 
+CXX_INCLUDES = -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -isystem /usr/lib/llvm-6.0/include -isystem /usr/local/include 
 
