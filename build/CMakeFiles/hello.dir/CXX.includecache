@@ -9,8 +9,6 @@
 /home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/hello.cpp
 iostream
 -
-ct/core/core.h
--
 ct/core/plot/plot.h
 -
 ct/optcon/optcon.h
@@ -441,6 +439,50 @@ src/Eigenvalues/ComplexSchur_LAPACKE.h
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
 src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+src/Core/util/ReenableStupidWarnings.h
+/usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+/usr/include/eigen3/Eigen/Geometry
+Core
+/usr/include/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+SVD
+/usr/include/eigen3/Eigen/SVD
+LU
+/usr/include/eigen3/Eigen/LU
+limits
+-
+src/Geometry/OrthoMethods.h
+/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+src/Geometry/EulerAngles.h
+/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+src/Geometry/Homogeneous.h
+/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+src/Geometry/RotationBase.h
+/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h
+src/Geometry/Rotation2D.h
+/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+src/Geometry/Quaternion.h
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h
+src/Geometry/AngleAxis.h
+/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+src/Geometry/Transform.h
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h
+src/Geometry/Translation.h
+/usr/include/eigen3/Eigen/src/Geometry/Translation.h
+src/Geometry/Scaling.h
+/usr/include/eigen3/Eigen/src/Geometry/Scaling.h
+src/Geometry/Hyperplane.h
+/usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+src/Geometry/ParametrizedLine.h
+/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+src/Geometry/AlignedBox.h
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+src/Geometry/Umeyama.h
+/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
+src/Geometry/arch/Geometry_SSE.h
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 src/Core/util/ReenableStupidWarnings.h
 /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
 
@@ -1123,6 +1165,36 @@ cstdint
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+
+/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+
+/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+
+/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+
+/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+
+/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Scaling.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Translation.h
+
+/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
+
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 
 /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 
@@ -9244,14 +9316,6 @@ control/StateFeedbackController-impl.h
 control/continuous_time/ConstantController-impl.h
 /usr/local/include/ct/core/control/continuous_time/ConstantController-impl.h
 
-/usr/local/include/ct/core/Geometry
-geometry/Ellipsoid.h
-/usr/local/include/ct/core/geometry/Ellipsoid.h
-geometry/Plane.h
-/usr/local/include/ct/core/geometry/Plane.h
-geometry/PlaneEstimator.h
-/usr/local/include/ct/core/geometry/PlaneEstimator.h
-
 /usr/local/include/ct/core/Geometry-impl
 
 /usr/local/include/ct/core/Integration
@@ -9635,14 +9699,6 @@ Geometry-impl
 /usr/local/include/ct/core/Geometry-impl
 Simulation-impl
 /usr/local/include/ct/core/Simulation-impl
-
-/usr/local/include/ct/core/geometry/Ellipsoid.h
-
-/usr/local/include/ct/core/geometry/Plane.h
-
-/usr/local/include/ct/core/geometry/PlaneEstimator.h
-Plane.h
-/usr/local/include/ct/core/geometry/Plane.h
 
 /usr/local/include/ct/core/integration/EventHandler.h
 ct/core/types/StateVector.h

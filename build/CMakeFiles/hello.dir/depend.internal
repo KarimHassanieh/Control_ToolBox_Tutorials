@@ -7,6 +7,7 @@ CMakeFiles/hello.dir/hello.cpp.o
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
  /usr/include/eigen3/Eigen/Eigenvalues
+ /usr/include/eigen3/Eigen/Geometry
  /usr/include/eigen3/Eigen/Householder
  /usr/include/eigen3/Eigen/IterativeLinearSolvers
  /usr/include/eigen3/Eigen/Jacobi
@@ -174,6 +175,21 @@ CMakeFiles/hello.dir/hello.cpp.o
  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+ /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+ /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+ /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+ /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+ /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+ /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+ /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h
+ /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+ /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h
+ /usr/include/eigen3/Eigen/src/Geometry/Scaling.h
+ /usr/include/eigen3/Eigen/src/Geometry/Transform.h
+ /usr/include/eigen3/Eigen/src/Geometry/Translation.h
+ /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
  /usr/include/eigen3/Eigen/src/Householder/Householder.h
  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -1057,7 +1073,6 @@ CMakeFiles/hello.dir/hello.cpp.o
  /usr/local/include/ct/core/Common-impl
  /usr/local/include/ct/core/Control
  /usr/local/include/ct/core/Control-impl
- /usr/local/include/ct/core/Geometry
  /usr/local/include/ct/core/Geometry-impl
  /usr/local/include/ct/core/Integration
  /usr/local/include/ct/core/Integration-impl
@@ -1101,9 +1116,6 @@ CMakeFiles/hello.dir/hello.cpp.o
  /usr/local/include/ct/core/control/continuous_time/siso/StepInputController.h
  /usr/local/include/ct/core/control/discrete_time/DiscreteController.h
  /usr/local/include/ct/core/core.h
- /usr/local/include/ct/core/geometry/Ellipsoid.h
- /usr/local/include/ct/core/geometry/Plane.h
- /usr/local/include/ct/core/geometry/PlaneEstimator.h
  /usr/local/include/ct/core/integration/EventHandler.h
  /usr/local/include/ct/core/integration/EventHandlers/KillIntegrationEventHandler.h
  /usr/local/include/ct/core/integration/EventHandlers/MaxStepsEventHandler.h

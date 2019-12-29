@@ -6,6 +6,7 @@ CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Core
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Dense
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Eigenvalues
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Geometry
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Householder
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/IterativeLinearSolvers
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/Jacobi
@@ -173,6 +174,21 @@ CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Eigenvalues/Real
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Scaling.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Transform.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Translation.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
+CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -1056,7 +1072,6 @@ CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Common
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Common-impl
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Control
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Control-impl
-CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Geometry
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Geometry-impl
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Integration
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/Integration-impl
@@ -1100,9 +1115,6 @@ CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/control/continuous_
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/control/continuous_time/siso/StepInputController.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/control/discrete_time/DiscreteController.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/core.h
-CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/geometry/Ellipsoid.h
-CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/geometry/Plane.h
-CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/geometry/PlaneEstimator.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/integration/EventHandler.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/integration/EventHandlers/KillIntegrationEventHandler.h
 CMakeFiles/hello.dir/hello.cpp.o: /usr/local/include/ct/core/integration/EventHandlers/MaxStepsEventHandler.h
