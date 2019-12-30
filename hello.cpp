@@ -39,7 +39,6 @@ for (size_t i = 0; i < nSteps; i++){
     states.push_back(x);
     time_stamps.push_back(i*dt);
 
-
 }
  // Plot Output:
  std::vector<double> time_plot, position_plot, velocity_plot;
