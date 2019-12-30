@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ct/core/plot/plot.h>
-#include <ct/optcon/optcon.h> 
+#include <ct/optcon/optcon.h>
 using namespace std;
 using namespace ct::core ;
 using namespace ct::core::plot;
@@ -14,15 +14,15 @@ int main ()
     StateVectorArray<state_dim> states; //To record states along trajectory
     ct::core::tpl::TimeArray<double> time_stamps; //To record Time Stamps along trajectory
     // we initialize it at a point with unit deflection and zero velocity
-    x(0) = 0.0;//Position 
-    x(1) = 1.0;//Velocity
+    x(0) = 2.0;//Position
+    x(1) = 0.0;//Velocity
     // create an oscillator, which is a predefined system in ct_core
-   // If k is spring stiffnes,m is mass and d is damper constant then we have the below equations : 
+   // If k is spring stiffnes,m is mass and d is damper constant then we have the below equations :
    //w_n=square root of (k/m)
    //zeta=(d/(2*sqrt(m*k)))
     double k=25;
     double m=1;
-    double d=0.1;
+    double d=3;
     double w_n = sqrt(k/m);
     double zeta=(d/(2*sqrt(m*k)));
     shared_ptr<SecondOrderSystem> oscillator(new SecondOrderSystem(w_n,zeta));
@@ -31,7 +31,7 @@ int main ()
     // simulate 1000 steps
     double dt = 0.001;
     Time t0 = 0.0;
-    size_t nSteps = 90000;
+    size_t nSteps = 3000;
     states.push_back(x);
 for (size_t i = 0; i < nSteps; i++){
     integrator.integrate_n_steps(x, i*dt, 1, dt);
@@ -72,7 +72,7 @@ for (size_t i = 0; i < nSteps; i++){
     ct::core::plot::legend();
     ct::core::plot::ylabel("Velocity");
      ct::core::plot::xlabel("Position");
-    
+
     ct::core::plot::show();
 
 return 0;
