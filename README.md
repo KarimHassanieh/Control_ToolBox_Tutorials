@@ -18,6 +18,7 @@ The following Tutorials are based on the control toolbox provided by ETH (https:
 
 ## The Case of Second Order Damped Oscillator (Coded in hello.cpp)
 The below results could be obtained
+
 [//]: # (Image References)
 [image_0]: ./hello_results.png
 
