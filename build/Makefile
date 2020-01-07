@@ -123,6 +123,19 @@ hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+#=============================================================================
+# Target rules for targets named pendulum
+
+# Build rule for target.
+pendulum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pendulum
+.PHONY : pendulum
+
+# fast build rule for target.
+pendulum/fast:
+	$(MAKE) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/build
+.PHONY : pendulum/fast
+
 hello.o: hello.cpp.o
 
 .PHONY : hello.o
@@ -150,6 +163,33 @@ hello.cpp.s:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.cpp.s
 .PHONY : hello.cpp.s
 
+simple_pendulum.o: simple_pendulum.cpp.o
+
+.PHONY : simple_pendulum.o
+
+# target to build an object file
+simple_pendulum.cpp.o:
+	$(MAKE) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/simple_pendulum.cpp.o
+.PHONY : simple_pendulum.cpp.o
+
+simple_pendulum.i: simple_pendulum.cpp.i
+
+.PHONY : simple_pendulum.i
+
+# target to preprocess a source file
+simple_pendulum.cpp.i:
+	$(MAKE) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/simple_pendulum.cpp.i
+.PHONY : simple_pendulum.cpp.i
+
+simple_pendulum.s: simple_pendulum.cpp.s
+
+.PHONY : simple_pendulum.s
+
+# target to generate assembly for a file
+simple_pendulum.cpp.s:
+	$(MAKE) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/simple_pendulum.cpp.s
+.PHONY : simple_pendulum.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... hello"
 	@echo "... edit_cache"
+	@echo "... hello"
+	@echo "... pendulum"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
+	@echo "... simple_pendulum.o"
+	@echo "... simple_pendulum.i"
+	@echo "... simple_pendulum.s"
 .PHONY : help
 
 
