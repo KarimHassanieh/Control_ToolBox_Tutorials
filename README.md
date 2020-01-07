@@ -1,5 +1,5 @@
 # Control_ToolBox_Tutorials
-The following Tutorials are based on the control toolbox provided by ETH (https://github.com/ethz-adrl/control-toolbox) which I have developed in order to get better understanding on Control theory. 
+The following Tutorials are based on the control toolbox provided by ETH (https://github.com/ethz-adrl/control-toolbox) The purpose is  to get better understanding on Control theory.. 
 ## Contorl Toolbox citation
 
     @misc{adrlCT,
