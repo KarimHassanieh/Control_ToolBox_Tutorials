@@ -19,10 +19,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/python2.7"
   "/usr/include/eigen3"
   "/usr/lib/llvm-6.0/include"
   "/usr/local/include"
+  "/usr/include/python2.7"
   )
 
 # Targets to which this target links.
