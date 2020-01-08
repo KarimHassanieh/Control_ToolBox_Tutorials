@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/pendulum.h
+ct/core/core.h
+-
+
 /home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/simple_pendulum.cpp
 iostream
 -
@@ -13,6 +17,8 @@ ct/core/plot/plot.h
 -
 ct/optcon/optcon.h
 -
+pendulum.h
+/home/karim/Desktop/KARIM/ROBOTICS/Control_ToolBox_Examples/pendulum.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

@@ -1,8 +1,9 @@
 #include <iostream>
 #include <ct/core/plot/plot.h>
 #include <ct/optcon/optcon.h>
+#include "pendulum.h"
 using namespace std;
-using namespace ct::core ;
+using namespace ct::core;
 using namespace ct::core::plot;
 int main ()
 {
